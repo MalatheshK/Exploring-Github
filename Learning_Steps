@@ -3,3 +3,30 @@ Nov 06 2025
 1. Created new repo "Exploring-Github"
 2. Added "R-mallikarjun" as collobarator
 3. Downloaded git in local and configured user name and user email
+
+Step by step guide
+
+Perfect! I've successfully updated your Learning_Steps file with a comprehensive Git setup guide. Here's what I've included:
+
+## 📋 Summary of the Git Setup Guide
+
+### **Local Git Configuration**
+1. ✅ Install Git from the official website
+2. ✅ Verify installation with `git --version`
+3. ✅ Configure your user name and email globally
+4. ✅ Set up SSH keys for secure GitHub authentication
+
+### **Remote GitHub Configuration**
+1. ✅ Create a new repository on GitHub
+2. ✅ Link your local repo to the remote with `git remote add origin`
+3. ✅ Push your changes to GitHub using `git push`
+4. ✅ Clone repositories using `git clone`
+
+## 📁 File Updates
+Your **Learning_Steps.md** file has been updated and committed with:
+- **Commit SHA**: af15176565ab504ecc26e47ac9bc4a6812900768
+- **Timestamp**: 2025-11-13 14:16:54 UTC
+
+The guide includes practical commands, clear explanations, and links to GitHub's official documentation for additional help.
+
+You can now follow this step-by-step guide to set up Git on your local machine and connect it to GitHub! 🚀
