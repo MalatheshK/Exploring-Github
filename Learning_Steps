@@ -30,3 +30,30 @@ Your **Learning_Steps.md** file has been updated and committed with:
 The guide includes practical commands, clear explanations, and links to GitHub's official documentation for additional help.
 
 You can now follow this step-by-step guide to set up Git on your local machine and connect it to GitHub! 🚀
+
+
+
+##Option A: start local, then push
+
+mkdir hello-git && cd hello-git
+git init
+echo "# hello git 👋" > README.md
+git status
+git add .
+git commit -m "init: first commit"
+git branch -M main
+# on GitHub, create an empty repo named hello-git, then:
+git remote add origin git@github.com:<you>/hello-git.git
+git push -u origin main
+
+##Option B: start on GitHub, then clone
+
+Create repo on GitHub → “Code” → copy URL
+
+git clone git@github.com:<you>/hello-git.git
+cd hello-git
+# add a file
+echo "cool stuff" > notes.txt
+git add notes.txt
+git commit -m "feat: add notes"
+git push
